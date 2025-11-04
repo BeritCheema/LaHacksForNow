@@ -2,8 +2,8 @@ const Navbar = () => {
   return (
     <header className="w-full py-6">
       <nav className="mx-auto flex w-full max-w-5xl items-center justify-between px-6">
-        <span className="text-lg font-semibold tracking-widest text-accent">
-          Berit Cheema
+        <span className="text-lg font-semibold tracking-widest text-accent text-white">
+          B.C.Dev
         </span>
         <a
           href="mailto:beritcheema@gmail.com"
