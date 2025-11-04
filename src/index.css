@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#0d0d0d] text-white antialiased;
+}
+
+a {
+  @apply text-accent transition-colors duration-300 hover:text-white;
+}
