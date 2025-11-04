@@ -176,21 +176,7 @@ const TechStackOrbit = () => {
               })}
 
               {/* Main icon */}
-              <motion.div
-                className="flex h-16 w-16 items-center justify-center rounded-full border border-white/10 bg-white/5 text-2xl text-white shadow-lg shadow-black/40 drop-shadow-[0_0_8px_rgba(0,191,255,0.25)] transition-colors duration-500 hover:drop-shadow-[0_0_12px_#00BFFF]"
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 1.1 }}
-                style={{ color }}
-                title={label}
-              >
-                <motion.div
-                  animate={{ opacity: [0.8, 1, 0.8] }}
-                  transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut', delay: index * 0.15 }}
-                  className="transition-colors duration-500 hover:text-accent"
-                >
-                  <Icon />
-                </motion.div>
-              </motion.div>
+              
             </motion.div>
           );
         })}
