@@ -1,6 +1,5 @@
 node_modules
-.DS_Store
+bun.lockb
 dist
-.env.local
 .vscode
-.idea
+.DS_Store
